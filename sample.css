@@ -340,7 +340,7 @@ margin-right: auto;
   display: flex;
   position: relative;
   width: 68%;
-  background-image: url("images/value1.png");
+  background-image: url("value1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -351,7 +351,7 @@ margin-right: auto;
   display: flex;
   position: relative;
   width: 68%;
-  background-image: url("images/value2.png");
+  background-image: url("value2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -363,7 +363,7 @@ margin-right: auto;
   display: flex;
   position: relative;
   width: 68%;
-  background-image: url("images/value3.png");
+  background-image: url("value3.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -479,7 +479,7 @@ text-align: center;
   padding-bottom: 160px;
   text-align: center;
   position: relative;
-  background-image: url("images/Myskill.png");
+  background-image: url("Myskill.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -780,14 +780,6 @@ letter-spacing: 0.12em;
 
 .form {
 margin-top: 60px;
-}
-
-.campanyNameForm input {
-  /* margin-left: 20%; */
-}
-
-.telForm input {
-  /* margin-left: 20%; */
 }
 
 .businessForm textarea {
