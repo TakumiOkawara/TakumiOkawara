@@ -1,0 +1,1422 @@
+
+/* リセットCSSここから */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+q {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+}
+  /* リセットCSSここまで */
+
+
+
+/* CSSここから */
+body {
+  margin: 0;
+}
+
+.mainHeader {
+  /* とりあえず幅を1224pxとする */
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+}
+
+.headerContainer {
+  display: flex;
+  }
+
+.titleContainer{
+  display: flex;
+  margin-top: 20px;
+}
+
+.logoImage {
+  width: 42px;
+  height: 53px;
+}
+
+.pageTitle {
+  font-size: 24px;
+  color: #726e6d;
+  text-align: center;
+  margin-left: 15px;
+  line-height: 52px;
+}
+
+.MenuLogo {
+  display: none;
+}
+
+nav {
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headerMenu {
+  display: flex;
+  font-size: 18px;
+}
+
+.headerMenu li{
+  margin-left: 60px;
+  font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+}
+
+.headerMenu li:last-child {
+  margin-left: 120px;
+  margin-right:40px;
+}
+
+.headerMenu a {
+  color: #000;
+}
+/* mainここから */
+
+main {
+/* とりあえず幅を1224pxとする */
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+/*  メイン画像始まり */
+.mainContainer {
+  width: 100%;
+  background-image: url("../images/kelly-sikkema-cXkrqY2wFyc-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding-top: 230px;
+  padding-bottom: 180px;
+}
+
+.mainImage {
+  width: 100%;
+  height: 578px;
+}
+
+.smartphoneTextContainer {
+  display: none;
+}
+
+.mainBtn {
+  display: none;
+}
+
+.textContainer {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textContainer h1 {
+  color: #fff;
+  font-size: 36px;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+  letter-spacing: 0.12em;
+}
+
+.textContainer p {
+ color: #fff;
+  font-size: 18px;
+  margin-top: 8px;
+  letter-spacing: 0.04em;
+}
+
+.contactBtn {
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  border: solid 3px #fff;
+  border-radius: 10px;
+  position: relative;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactBtn a {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  padding: 13px;
+  margin:0 auto 0 auto;
+  font-family: '小塚ゴシック Pr6N';
+  letter-spacing: 0.02em;
+  display: block;
+}
+
+/*  メイン画像始まり */
+
+/* コンセプトエリア始まり */
+.conceptContainer {
+  width: 100%;
+  background-color: #3a7f35;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: '小塚ゴシック Pr6N';
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.conceptContainer h2 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.conceptContainer h3 {
+  margin-top: 40px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.smartphoneConceptText {
+  display: none;
+}
+
+.conceptText {
+  margin-top: 60px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.8em;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+.line1 {
+  letter-spacing: -0.02em;
+}
+
+.line2 {
+  letter-spacing: 0.04em;
+}
+
+.line3 {
+  letter-spacing: 0.04em;
+}
+/* コンセプトエリアここまで */
+
+/* 提供コンテンツについてここから */
+.aboutContents {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  background-color: #fff;
+  /* display: flex; */
+  /* position: relative; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutContentsContainer {
+  margin: 0 auto;
+  display: flex;
+  width: 83%;
+}
+
+.aboutContentsLeft {
+  height: auto;
+  width: 60%;
+  min-width: 290px;
+}
+
+.contentsElements {
+  font-size: 16px;
+  font-family: '小塚ゴシック Pr6N';
+  color: #363c71;
+}
+
+.contentsTitle {
+  width: 75%;
+  max-width: 360px;
+  min-width: 270px;
+  font-size: 30px;
+  margin-top: 25px;
+  font-weight: bold;
+  line-height:  1.83;
+  letter-spacing: -0.02em;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+}
+
+.contentsText {
+  width: 65%;
+  min-width: 300px;
+  color: #515151;
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 1.8;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+}
+
+.smartphoneContentsText {
+  display: none;
+}
+
+.contentsImage {
+  padding-top: 40px;
+}
+
+.contentsImage img {
+  width: 100%;
+}
+/* 提供コンテンツについてここまで */
+/* バリューエリアここから */
+.valueContainer {
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  padding-bottom: 60px;
+}
+
+.valueTitleContainer {
+  height: auto;
+  width: 100%;
+  background-color: #23829f;
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.valueTitleContainer h2 {
+  font-size: 48px;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+}
+
+.valueTitleContainer p {
+  font-size: 18px;
+  margin-top: 12px;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+  letter-spacing: -0.12em;
+}
+
+.value {
+  margin-top: 60px;
+}
+
+.value1 {
+  display: flex;
+  position: relative;
+  width: 68%;
+  background-image: url("../images/value1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+.value2 {
+  display: flex;
+  position: relative;
+  width: 68%;
+  background-image: url("../images/value2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  margin-left: auto;
+}
+
+.value3 {
+  display: flex;
+  position: relative;
+  width: 68%;
+  background-image: url("../images/value3.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+.valueBtn2{
+  display: none;
+}
+
+.valueImage {
+  font-size: 0;
+}
+
+.valueImageRight {
+  margin-left: auto;
+}
+
+.valueText {
+  background-color: #fff;
+  padding: 80px 0 150px 0;
+  width: 80%;
+  max-width: 540px;
+}
+
+.smartphoneValueTextTitle {
+  display: none;
+}
+
+.valueTextRight{
+  margin-left: auto;
+  position: relative;
+  margin-right: -40%;
+}
+
+.valueTextLeft {
+  margin-left: -40%;
+  position: relative;
+}
+
+.pcValueTextTitle1 {
+  margin-left: 70px;
+}
+
+.pcValueTextTitle2 {
+margin-left: 70px;
+}
+
+.valueText dt {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'HGSｺﾞｼｯｸE';
+  letter-spacing: 0.12em;
+}
+
+.valueText dd {
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 1.5em;
+  letter-spacing: 0.06em;
+  font-family: 'HGSｺﾞｼｯｸE';
+}
+
+.valueBtn {
+background-color: #07152e;
+width: 285px;
+position: absolute;
+bottom: 0;
+right: 0;
+display: flex;
+text-align: center;
+}
+
+.valueBtn2 {
+background-color: #07152e;
+width: 285px;
+position: absolute;
+bottom: 0;
+left: 0;
+display: flex;
+text-align: center;
+}
+
+.valueBtn a, .valueBtn2 a {
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'HGSｺﾞｼｯｸE';
+  letter-spacing: 0.06em;
+  text-align: center;
+  display: block;
+  padding: 29px;
+}
+
+.valueBtn3 {
+  display: none;
+}
+/* バリューエリアここまで */
+
+/* 記事エリアここから */
+.articleContainer {
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+  background-color: #f5f5f5;
+}
+
+
+.articleTitle {
+  width: 100%;
+  height: auto;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  text-align: center;
+  position: relative;
+  background-image: url("../images/Myskill.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.articleTitleText h2 {
+  font-size: 36px;
+  color: #fff;
+  font-family: '小塚ゴシック Pr6N';
+  letter-spacing: 0.06em;
+}
+
+.articleTitleText p {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #fff;
+  font-family: '小塚ゴシック Pr6N';
+  letter-spacing: 0.06em;
+}
+
+/* ポートフォリオここから */
+.portforlio {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portforlioTitleContainer {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.portforlioTitleContainer h3 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+}
+
+.portforlioTitleContainer p {
+  font-size: 18px;
+  margin-top: 18px;
+  text-align: center;
+  font-family: '小塚ゴシック Pr6N';
+}
+
+.worksContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works {
+  position: relative;
+  width: 50%;
+  height: auto;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  text-align: center;
+
+}
+
+.Works1 {
+  background-image: url("../images/portforioimage1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Works2 {
+  background-image: url("../images/portforioimage2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.worksText {
+  color: #fff;
+  display: inline-block;
+}
+
+.worksText h3 {
+  font-size: 30px;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+  letter-spacing: -0.04em;
+}
+
+.worksTitleText {
+  font-size: 18px;
+  letter-spacing: -0.04em;
+  line-height: 1.6em;
+  text-align: left;
+  margin-top: 20px;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+}
+
+.WorksBtn1 a {
+border: solid 1px #fff;
+border-radius: 5px;
+margin: 40px auto 0 auto;
+padding: 20px;
+width: 245px;
+display: block;
+}
+
+.WorksBtn1Text {
+  font-size: 16px;
+  font-family: 'UD デジタル 教科書体 NP-B';
+  text-decoration: none;
+  color: #fff;
+}
+
+.worksText2 {
+  display: none;
+}
+
+.WorksBtn2 {
+  margin-bottom: 40px;
+}
+
+.WorksBtn2 a {
+border: solid 1px #000;
+border-radius: 5px;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+width: 245px;
+display: block;
+}
+
+.WorksBtn2Text {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.WorksBtn3 {
+  display: none;
+}
+
+/* ポートフォリオここまで */
+/* ブログエリアここから */
+.BlogContainer {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smartphoneBlogContainer {
+  display: none;
+}
+
+.BlogTitleContainer {
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.BlogTitleContainer h3 {
+font-size: 36px;
+color: #88bda8;
+letter-spacing: 0.24em;
+font-family: '小塚ゴシック Pr6N';
+}
+
+.BlogTitleContainer p {
+font-size: 16px;
+color: #88bda8;
+margin: 12px;
+letter-spacing: 0.12em;
+}
+
+.blogContentsContainer {
+  width: 85%;
+  height: auto;
+  background-color: #eeeeee;
+  margin: 0 auto;
+  padding: 60px 90px 60px 90px;
+}
+
+.blogContentsContainer1 {
+  display: flex;
+}
+
+.blogContentsContainer2 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.blogContents {
+  width: 435px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  padding: 20px;
+}
+
+.blogContent2 {
+  margin-left: 10px;
+}
+
+.blogContent4 {
+  margin-left: 10px;
+}
+
+.blogContentsText {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: '小塚ゴシック Pr6N';
+  letter-spacing: -0.08em;
+}
+
+.blogContentsText p:last-child {
+  margin-top: 12px;
+  color: #88bda8;
+}
+
+.blogBtn {
+  display: none;
+}
+/* ブログエリアここまで */
+/* 記事エリアここまで */
+/* コンタクトエリアここから */
+.contactArea {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f5f5f5;
+}
+
+.contactTitle {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #23829f;
+  height: auto;
+  color: #fff;
+}
+
+.contactTitle h2 {
+  font-size: 48px;
+  letter-spacing: 0;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+}
+
+.contactTitle p {
+  margin-top: 14px;
+  font-size: 18px;
+  letter-spacing: -0.12em;
+  font-family: 'HGS創英角ｺﾞｼｯｸUB';
+}
+
+.formArea {
+  width: 70%;
+  height: auto;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formContainer {
+  background-color: #eee;
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 40px;
+}
+
+.formContainer label {
+  font-family: '小塚ゴシック Pr6N';
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  display: block;
+}
+
+.formContainer input {
+  display: block;
+  width: 70%;
+  min-width: 300px;
+  margin-top: 8px;
+}
+
+.asterisk {
+  color: red;
+}
+
+.nameForm input {
+  /* margin-left: 20%; */
+}
+
+.form {
+margin-top: 60px;
+}
+
+.campanyNameForm input {
+  /* margin-left: 20%; */
+}
+
+.telForm input {
+  /* margin-left: 20%; */
+}
+
+.addressForm input {
+  /* margin-left: 20%; */
+}
+
+.businessForm textarea {
+  /* margin-left: 23%; */
+  margin-top: 8px;
+  width: 60%;
+  min-width: 290px;
+  height: 150px;
+  display: block;
+}
+
+.inputArea {
+  width: 400px;
+  height: 30px;
+}
+
+.btnContainer {
+  width: 40%;
+  min-width: 290px;
+  height: auto;
+  background-color: #be4878;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btnContainer a {
+  width: 100%;
+  color: #fff;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-size: 16px;
+  font-family: '小塚ゴシック Pr6N';
+  display: block;
+}
+
+.smartphoneContactArea {
+  display: none;
+}
+/* コンタクトエリアここまで */
+/* mainここまで */
+
+/* フッターここから */
+footer {
+  background-color: #fff;
+  font-size: 0;
+}
+/* フッターここまで */
+
+@media screen and (max-width:850px) {
+
+  .titleContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .menuLogo {
+  display: inline-block;
+  vertical-align: middle;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+  .menuTrigger {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+  }
+
+  .menuTrigger span {
+    position: absolute;
+    left: 0;
+    height: 8px;/*線の太さ*/
+    width: 100%;/*長さ*/
+    border-radius: 4px;
+    background-color: #555;
+    display: inline-block;
+  }
+
+  .menuTrigger span:nth-of-type(1) {
+    top: 5px;
+  }
+
+  .menuTrigger span:nth-of-type(2) {
+    top: 29px;
+  }
+
+  .menuTrigger span:nth-of-type(3) {
+    top: 52px;
+  }
+  nav {
+    display: none;
+  }
+  /* スマホヘッダーここまで */
+  .BlogContainer {
+    display: none;
+  }
+
+  .smartphoneBlogContainer {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .smartphoneBlogTitleContainer h3 {
+    font-size: 26px;
+    font-family: "HGS創英角ｺﾞｼｯｸUB";
+  }
+
+  .smartphoneBlogContentsContainer1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .smartphoneBlogContent2 {
+    margin-left: 20px;
+  }
+
+  .smartphoneBlogContentsImage {
+   width: 100%;
+  }
+
+  .smartphoneBlogContentsText p:nth-of-type(1) {
+    font-size: 14px;
+    font-family: "小塚ゴシック Pr6N";
+    margin-top: 10px;
+  }
+
+  .smartphoneBlogContentsText p:nth-of-type(2) {
+    font-size: 18px;
+    font-family: "小塚ゴシック Pr6N";
+    margin-top: 10px;
+  }
+
+  .smartphoneBlogContentsContainer2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .smartphoneBlogContent4 {
+    margin-left: 20px;
+  }
+
+  .blogBtn {
+    text-align: center;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1e9dac;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    display: block;
+  }
+
+  .blogBtn a {
+    font-family: "HGS創英角ｺﾞｼｯｸUB";
+    color: #fff;
+    font-size: 22px;
+  }
+
+}
+/* スマートフォンサイトここから */
+@media screen and (max-width:600px) {
+  /* スマホヘッダーここから */
+  .mainHeader {
+    width: 100%;
+  }
+
+  .logoImage {
+    width: 20px;
+    height: 26px;
+  }
+
+  .pageTitle {
+    line-height: 26px;
+  }
+
+  .titleContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .menuLogo {
+  display: inline-block;
+  vertical-align: middle;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+  .menuTrigger {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .menuTrigger span {
+    position: absolute;
+    left: 0;
+    height: 4px;/*線の太さ*/
+    width: 100%;/*長さ*/
+    border-radius: 4px;
+    background-color: #555;
+    display: inline-block;
+  }
+
+  .menuTrigger span:nth-of-type(1) {
+    top: 1.5px;
+  }
+
+  .menuTrigger span:nth-of-type(2) {
+    top: 13.5px;
+  }
+
+  .menuTrigger span:nth-of-type(3) {
+    top: 27px;
+  }
+  nav {
+    display: none;
+  }
+  /* スマホヘッダーここまで */
+
+/* スマホメインここから */
+  main {
+    width: 100%;
+  }
+
+  .mainContainer {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'HGSｺﾞｼｯｸE';
+  }
+
+  .smartphoneTextContainer {
+    margin-left: 25px;
+    display: block;
+    font-size: 18px;
+  }
+
+  .smartphoneTextContainer p {
+    background-color: #fff;
+    padding: 5px;
+  }
+
+  .smartphoneTextContainer p:nth-of-type(1),
+  .smartphoneTextContainer p:nth-of-type(2) {
+    width: 210px;
+    margin-bottom: 14px;
+  }
+
+  .smartphoneTextContainer p:nth-of-type(3) {
+    width: 230px;
+    margin-bottom: 0px;
+  }
+
+  .textContainer {
+    display: none;
+  }
+
+  .mainBtn {
+    display: block;
+    background-color: #e04f51;
+    width: 235px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .mainBtn  a {
+  line-height: 40px;
+  text-decoration: none;
+  color: #fff;
+  }
+
+  .conceptContainer {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 55px;
+  }
+
+  .conceptContainer h2 {
+    font-size: 30px;
+  }
+
+  .conceptContainer h3 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .smartphoneConceptText {
+    font-size: 16px;
+    display: block;
+    width: 80%;
+    font-family: "小塚ゴシック Pr6N";
+    line-height: 1.43;
+    margin-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+  }
+
+  .conceptContainer h2:after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid  #fff;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .conceptText {
+    display: none;
+  }
+
+  .aboutContents {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .aboutContentsLeft {
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 0;
+  }
+
+  .contentsElements {
+    font-size: 18px;
+  }
+
+  .contentsTitle {
+    font-size: 22px;
+    width: 90%;
+    min-width: 0;
+    font-family: "HGS創英角ｺﾞｼｯｸUB";
+    text-align: center;
+    text-decoration: underline;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contentsImage {
+    display: none;
+  }
+
+  .contentsText {
+    display: none;
+  }
+
+  .smartphoneContentsText {
+    display: block;
+    font-size: 16px;
+    font-family: "小塚ゴシック Pr6N";
+    width: 85%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .smartphoneContentsText span:nth-of-type(1) {
+    letter-spacing: -0.06;
+  }
+
+  .smartphoneContentsText span:nth-of-type(2) {
+    letter-spacing: -0.04;
+  }
+
+  .smartphoneContentsText span:nth-of-type(3) {
+    letter-spacing: -0.08;
+  }
+
+  .valueContainer {
+    width: 100%;
+  }
+
+  .valueTitleContainer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    height: auto;
+  }
+
+  .valueTitleContainer h2 {
+    font-size: 30px;
+    font-family: "HGS創英角ｺﾞｼｯｸUB";
+  }
+
+  .valueTitleContainer h2::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid  #fff;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .valueTitleContainer p {
+    font-size: 18px;
+    font-family: "小塚ゴシック Pr6N";
+  }
+
+  .value {
+    margin-top: 0;
+    display: block;
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .valueText {
+    margin: 0 auto;
+    width: 85%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .smartphoneValueTextTitle {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .smartphoneValueTextTitle h2 {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  .smartphoneValueTextTitle dd {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .pcValueTextTitle {
+    display: none;
+  }
+
+  .pcValueTextTitle1, .pcValueTextTitle2 {
+    display: none;
+  }
+
+  .valueBtn, .valueBtn2 {
+    display: none;
+  }
+
+  .valueBtn3 {
+    display: block;
+    width: 90%;
+    margin: 50px auto 60px auto;
+    text-align: center;
+    background-color: #07152e;
+    border-radius: 5px;
+    margin-bottom: 0;
+  }
+
+  .valueBtn3 a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "HGSｺﾞｼｯｸE";
+    font-size: 22px;
+    line-height: 70px;
+  }
+
+  .articleContainer {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+
+  .articleTitle {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .articleTitleText h2 {
+    font-size: 30px;
+    font-family: "HGSｺﾞｼｯｸE";
+    text-decoration: underline;
+  }
+
+  .articleTitleText p {
+    margin-top: 10px;
+  }
+
+  .portforlioTitleContainer {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .portforlioTitleContainer h3 {
+    text-align: left;
+    font-family: "HGS創英角ｺﾞｼｯｸUB";
+  }
+
+  .portforlioTitleContainer p {
+    text-align: left;
+    margin-top: 8px;
+    font-family: "HGS創英角ｺﾞｼｯｸUB";
+  }
+
+  .worksContainer {
+    display: block;
+  }
+
+  .works {
+    width: 90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .worksText {
+    display: none;
+  }
+
+  .worksText2 {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    display: block;
+  }
+
+  .worksText2:nth-of-type(2) {
+    margin-bottom: 60px;
+  }
+
+  .Works1Title2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: "HGS創英角ｺﾞｼｯｸUB";
+  }
+
+  .WorksBtn2 {
+    display: none;
+  }
+
+  .WorksBtn3 {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #328c2e;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .WorksBtn3Text {
+    font-family: "HGS創英角ｺﾞｼｯｸUB";
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .contactArea {
+    display: none;
+  }
+
+.smartphoneContactArea {
+  text-align: center;
+  background-color: #363c71;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: block;
+}
+
+  .smartphoneContactArea p {
+    font-size: 22px;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: underline;
+    line-height: 1.6em;
+    width: 90%;
+  }
+
+  .smartphoneContactBtn {
+    text-align: center;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    display: block;
+  }
+
+  .smartphoneContactBtn a {
+    font-family: "HGS創英角ｺﾞｼｯｸUB";
+    color: #000;
+    font-size: 22px;
+  }
+
+/* スマホメインここまで */
+
+}
+/* スマートフォンサイトここまで */
