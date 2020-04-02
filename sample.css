@@ -123,7 +123,7 @@ margin-right: auto;
 /*  メイン画像始まり */
 .mainContainer {
   width: 100%;
-  background-image: url("../images/kelly-sikkema-cXkrqY2wFyc-unsplash.jpg");
+  background-image: url("kelly-sikkema-cXkrqY2wFyc-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -248,8 +248,6 @@ margin-right: auto;
   padding-top: 70px;
   padding-bottom: 80px;
   background-color: #fff;
-  /* display: flex; */
-  /* position: relative; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -344,7 +342,7 @@ margin-right: auto;
   display: flex;
   position: relative;
   width: 68%;
-  background-image: url("../images/value1.png");
+  background-image: url("value1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -355,7 +353,7 @@ margin-right: auto;
   display: flex;
   position: relative;
   width: 68%;
-  background-image: url("../images/value2.png");
+  background-image: url("value2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -367,7 +365,7 @@ margin-right: auto;
   display: flex;
   position: relative;
   width: 68%;
-  background-image: url("../images/value3.png");
+  background-image: url("value3.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -483,7 +481,7 @@ text-align: center;
   padding-bottom: 160px;
   text-align: center;
   position: relative;
-  background-image: url("../images/Myskill.png");
+  background-image: url("Myskill.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -547,14 +545,14 @@ text-align: center;
 }
 
 .Works1 {
-  background-image: url("../images/portforioimage1.png");
+  background-image: url("portforioimage1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Works2 {
-  background-image: url("../images/portforioimage2.png");
+  background-image: url("portforioimage2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
