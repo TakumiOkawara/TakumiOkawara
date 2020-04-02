@@ -90,6 +90,10 @@ nav {
   padding-bottom: 30px;
 }
 
+.globalNav {
+  display: none;
+}
+
 .headerMenu {
   display: flex;
   font-size: 18px;
@@ -119,7 +123,7 @@ margin-right: auto;
 /*  メイン画像始まり */
 .mainContainer {
   width: 100%;
-  background-image: url("kelly-sikkema-cXkrqY2wFyc-unsplash.jpg");
+  background-image: url("../images/kelly-sikkema-cXkrqY2wFyc-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -340,7 +344,7 @@ margin-right: auto;
   display: flex;
   position: relative;
   width: 68%;
-  background-image: url("value1.png");
+  background-image: url("../images/value1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -351,7 +355,7 @@ margin-right: auto;
   display: flex;
   position: relative;
   width: 68%;
-  background-image: url("value2.png");
+  background-image: url("../images/value2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -363,7 +367,7 @@ margin-right: auto;
   display: flex;
   position: relative;
   width: 68%;
-  background-image: url("value3.png");
+  background-image: url("../images/value3.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -479,7 +483,7 @@ text-align: center;
   padding-bottom: 160px;
   text-align: center;
   position: relative;
-  background-image: url("Myskill.png");
+  background-image: url("../images/Myskill.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -543,14 +547,14 @@ text-align: center;
 }
 
 .Works1 {
-  background-image: url("portforioimage1.png");
+  background-image: url("../images/portforioimage1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Works2 {
-  background-image: url("portforioimage2.png");
+  background-image: url("../images/portforioimage2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -777,11 +781,28 @@ letter-spacing: 0.12em;
   color: red;
 }
 
+.nameForm input {
+  /* margin-left: 20%; */
+}
+
 .form {
 margin-top: 60px;
 }
 
+.campanyNameForm input {
+  /* margin-left: 20%; */
+}
+
+.telForm input {
+  /* margin-left: 20%; */
+}
+
+.addressForm input {
+  /* margin-left: 20%; */
+}
+
 .businessForm textarea {
+  /* margin-left: 23%; */
   margin-top: 8px;
   width: 60%;
   min-width: 290px;
@@ -837,48 +858,74 @@ footer {
   }
 
   .menuLogo {
+  position: relative;
   display: inline-block;
   vertical-align: middle;
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 1500;
   width: 70px;
   height: 70px;
   padding: 5px;
   background-color: #fff;
 }
 
-  .menuTrigger {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-  }
-
-  .menuTrigger span {
+  .menuLogo span {
     position: absolute;
-    left: 0;
+    left: 5px;
     height: 8px;/*線の太さ*/
-    width: 100%;/*長さ*/
+    width: 60px;/*長さ*/
     border-radius: 4px;
     background-color: #555;
     display: inline-block;
   }
 
-  .menuTrigger span:nth-of-type(1) {
+  .menuLogo span:nth-of-type(1) {
     top: 5px;
   }
 
-  .menuTrigger span:nth-of-type(2) {
-    top: 29px;
+  .menuLogo span:nth-of-type(2) {
+    top: 31px;
   }
 
-  .menuTrigger span:nth-of-type(3) {
-    top: 52px;
+  .menuLogo span:nth-of-type(3) {
+    bottom: 5px;
   }
+
   nav {
     display: none;
+  }
+
+  .globalNav {
+    width: 33%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 73px;
+  }
+
+  .globalNav li {
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .globalNav li:first-child {
+    border-top: 1px solid #fff;;
+  }
+
+  .globalNav a {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .globalNavActive {
+    display: block;
   }
   /* スマホヘッダーここまで */
   .BlogContainer {
@@ -979,7 +1026,7 @@ footer {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 1500;
   width: 40px;
   height: 40px;
   padding: 5px;
@@ -987,37 +1034,36 @@ footer {
   display: inline-block;
 }
 
-  .menuTrigger {
-    position: relative;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-  }
-
-  .menuTrigger span {
+  .menuLogo span {
     position: absolute;
-    left: 0;
+    left: 5px;
     height: 4px;/*線の太さ*/
-    width: 100%;/*長さ*/
+    width: 30px;/*長さ*/
     border-radius: 4px;
     background-color: #555;
     display: inline-block;
   }
 
-  .menuTrigger span:nth-of-type(1) {
-    top: 1.5px;
+  .menuLogo span:nth-of-type(1) {
+    top: 5px;
   }
 
-  .menuTrigger span:nth-of-type(2) {
-    top: 13.5px;
+  .menuLogo span:nth-of-type(2) {
+    top: 18px;
   }
 
-  .menuTrigger span:nth-of-type(3) {
-    top: 27px;
+  .menuLogo span:nth-of-type(3) {
+    bottom: 5px;
   }
+
   nav {
     display: none;
   }
+
+  .globalNav {
+    padding-top: 46px;
+  }
+
   /* スマホヘッダーここまで */
 
 /* スマホメインここから */
